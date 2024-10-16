@@ -1,0 +1,22 @@
+{
+    "database": {
+        "dbname": "dbname",
+        "user": "username",
+        "password": "null",
+        "host": "hostname",
+        "port": "port"
+    },
+    "table_name": "tablename",
+    "timeout_period": 5,
+    "case_file": "case.json",
+    "delay": 2,
+    "retry_delay": 10,
+    "max_retries": 3,
+    "batch_size": 10,
+    "max_threads": 10,
+    "initial_delay": 1,
+    "proxy": {
+        "http": "http://127.0.0.1:80",
+        "https": "http://127.0.0.1:80"
+    }
+}
